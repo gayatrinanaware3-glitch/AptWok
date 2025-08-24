@@ -1,0 +1,15 @@
+[package]
+name = "escrow"
+version = "1.0.0"
+authors = []
+
+[addresses]
+escrow_contract = "1145d996854000d69d419b190268ea1dc78d1674d56e202142dcd11eaf30777c"   # replace with your deployer address
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
